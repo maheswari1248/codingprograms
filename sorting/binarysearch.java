@@ -17,7 +17,7 @@ public class binarysearch {
 				high=mid-1;
 			}
 			else {
-				System.out.println("element found hurahh");
+				System.out.println("element found hurahh ll");
 				break;
 			}
 			
