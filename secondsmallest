@@ -1,0 +1,25 @@
+public class Main
+{
+	public static void main(String[] args)
+	{
+		int a=1332445,rem=0,max=0,f=9,s=0;
+		while(a>0)
+		{
+		    rem=a%10;
+		    if(f>rem)
+		    {
+		        s=f;   
+		        f=rem;
+		    }
+		    if(s<rem && f>rem)
+		    {
+		        s=rem;
+		    }
+		    
+		    
+	
+		    a=a/10;
+		}
+			   System.out.println(s);
+	}
+}
